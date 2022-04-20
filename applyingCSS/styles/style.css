@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Box1 */
+#box1{
+    width: 150px;
+    height: 150px;
+    background-color: darkcyan;
+    margin: 20px  auto;
+    border-radius: 20px;
+    padding: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+

@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(107, 107, 107);
+}
+
+nav{
+    width: 100%;
+    background-color: rgb(185, 189, 189);
+    display: flex;
+    position: fixed;  
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+ }
+
+#name{
+    text-shadow:3px 3px 2px rgb(21, 190, 252);
+    color: aquamarine;
+    text-align: center;
+    font-size: 4em;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline;
+  align-items: center;
+}
+
+.left {
+    float:left; 
+    width:50%;
+    height:280px;
+}
+
+.right{
+    float:right;
+    width:50%;
+    height:280px;
+}
+
+
+
+
+.left-links{
+    flex:1 1 200px;
+ }
+ .links {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bolder;
+ }
+ .links:hover {
+    border-bottom: 2px solid purple;
+ }
+ .selected{
+    border-bottom: 2px solid purple;
+ }
+
+ main{
+    position: relative;
+    top: 40px;
+ }
+
+ .row {
+    display: flex;
+  }
+  .column {
+    flex: 60% 40%;
+    padding: 16px;
+    height: 250px;
+  }
+
+  #text{
+    position: relative;
+    top: 60px;
+  }
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background-color: rgb(185, 189, 189);
+ }
+
+ body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #b3bbb8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6a6a6a;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+#section2{
+    margin-top: 100px;
+    background-color: rgb(185, 189, 189);
+}
+
+#skill{
+    text-align: center;
+}
