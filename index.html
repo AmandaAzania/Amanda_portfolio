@@ -11,6 +11,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+
+    <script defer src="./script.js"></script>
+
+ 
+
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -55,12 +61,13 @@
                   <a href="#">socials</a>
                 </div>
     </header>
-    <main>
+    <main id="swup" class="transition-fade">
       <div class="row">
         <div class="column">
-          <img src="./images/shutterstock_606184016.jpg" alt="" />
+          <img src="./images/Amanda (1).JPG" alt="" / style="height: 300PX;">
         </div>
         <div class="column" id="text">
+          <h1 id="head">Me, Myself, and I</h1>
           <p>
             I have been self-teaching to code for the past year. I am fascinated
             by robotics, and AI. On my free time, I read and write fiction. I am
@@ -70,26 +77,75 @@
             literature. A family person and sister to 3 lovely siblings,
             Interested in the entire frontend spectrum and working on ambitious
             projects with positive people. 
-          </p> <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis error dicta, ex magnam maiores nemo voluptas, necessitatibus molestiae temporibus dolorum quaerat, quo blanditiis illo. Aliquam beatae eaque repellendus officiis error sunt itaque rem assumenda praesentium culpa, atque a, explicabo sint facilis? Deleniti nisi hic eveniet aspernatur quia accusamus nostrum vitae quaerat eos harum expedita molestias excepturi nobis atque reiciendis corrupti, cupiditate ipsam! Ducimus sed libero laudantium voluptates sit commodi recusandae quod illo non similique? Nemo similique suscipit provident quia ducimus sunt dolorum asperiores rem? Libero pariatur incidunt dolor explicabo temporibus placeat cumque atque labore ex quis obcaecati fugit sit, odit excepturi aliquam nostrum, maxime eum numquam. Unde eaque consequatur aliquam nesciunt libero sunt molestiae aperiam nemo provident amet, deserunt praesentium optio odio nobis eos nihil? Esse omnis est id, magni sed adipisci officia! Soluta amet voluptate natus, eum perferendis odit officia consequatur nemo, itaque recusandae adipisci. Tenetur ea placeat adipisci soluta, omnis quae debitis deleniti. Similique deleniti magnam ut ipsum sed eaque voluptate quasi impedit consequuntur a itaque dolores officiis nemo consectetur magni inventore libero adipisci voluptatibus exercitationem soluta fugit, dolorum perferendis suscipit. Magni architecto, laboriosam inventore rem, veritatis distinctio est eligendi quo rerum facere perferendis sed reprehenderit quaerat impedit!</p>
+      
         </div>
       </div>
 
       <section id="section2">
         <h1 id="skill">Skills</h1>
+<div id="line">
+<div class="skill">
+ <div class="outer">
+   <div class="inner">
+     <div id="number">
+  
+     </div>
+   </div>
+ </div>
 
-        <div class="row">
-          <div class="column">
-            <img src="./images/html5.jpg" alt="HTML" style="width: 200px; height: 150px;">
-          </div>
-          <div class="column">
-           <img src="./images/css-illustration.png" alt="CSS" style="width: 200px; height: 150px;">
-          </div>
+ <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+  <defs>
+     <linearGradient id="GradientColor">
+        <stop offset="0%" stop-color="#e91e63" />
+        <stop offset="100%" stop-color="#673ab7" />
+     </linearGradient>
+  </defs>
+  <circle class="circle1" cx="80" cy="80" r="70" stroke-linecap="round" />
+</svg>
+  </div>
 
-          <div class="column">
-            <img src="./images/javascript-concept-blue-background-blue-text-44066030.jpg" alt="CSS" style="width: 200px; height: 150px;">
-           </div>
+  <div class="skill">
+    <div class="outer">
+      <div class="inner">
+        <div id="number1">
+     
         </div>
+      </div>
+    </div>
+   
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+     <defs>
+        <linearGradient id="GradientColor">
+           <stop offset="0%" stop-color="#e91e63" />
+           <stop offset="100%" stop-color="#673ab7" />
+        </linearGradient>
+     </defs>
+     <circle class="circle2" cx="80" cy="80" r="70" stroke-linecap="round" />
+   </svg>
+     </div>
+
+     <div class="skill">
+      <div class="outer">
+        <div class="inner">
+          <div id="number2">
+       
+          </div>
+        </div>
+      </div>
+     
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+       <defs>
+          <linearGradient id="GradientColor">
+             <stop offset="0%" stop-color="#e91e63" />
+             <stop offset="100%" stop-color="#673ab7" />
+          </linearGradient>
+       </defs>
+       <circle class="circle3" cx="80" cy="80" r="70" stroke-linecap="round" />
+     </svg>
+       </div>
+
+
+      </div>  
       </section>
     </main>
 
@@ -99,5 +155,45 @@
       <i class="fa fa-envelope-o" aria-hidden="true"></i>
       <i class="fa fa-youtube" aria-hidden="true"></i>
     </footer>
+    <script>
+      let number = document.getElementById("number");
+      let counter = 0;
+      setInterval(()=>{
+
+        if(counter == 80) {
+          clearInterval();
+        }else{
+        counter += 1;
+        number.innerHTML = counter + "%" + " " + "HTML"
+        }
+      },20);
+
+
+      let number1 = document.getElementById("number1");
+      let counter1 = 0;
+      setInterval(()=>{
+
+        if(counter1 == 50) {
+          clearInterval();
+        }else{
+        counter1 += 1;
+        number1.innerHTML = counter1 + "%" + " " + "CSS"
+        }
+      },20);
+
+
+
+      let number2 = document.getElementById("number2");
+      let counter2 = 0;
+      setInterval(()=>{
+
+        if(counter2 == 30) {
+          clearInterval();
+        }else{
+        counter2 += 1;
+        number2.innerHTML = counter2 + "%" + " " + "Java Script"
+        }
+      },20);
+    </script>
   </body>
 </html>
