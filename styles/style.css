@@ -6,6 +6,8 @@
 
 body{
     background-color: rgb(107, 107, 107);
+
+    padding-left: 10px;
 }
 
 nav{
@@ -323,6 +325,10 @@ body {
     100%{
       stroke-dashoffset: 330;
     }
+  }
+
+  .testimonials{
+    text-align: center;
   }
 
 
