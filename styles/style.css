@@ -8,6 +8,8 @@ body{
     background-color: rgb(107, 107, 107);
 
     padding-left: 10px;
+
+    padding-bottom: 10px;
 }
 
 nav{
@@ -330,5 +332,26 @@ body {
   .testimonials{
     text-align: center;
   }
+#joshe{
+  padding-bottom: 15px;
+}
 
+#bulelani{
+  padding-bottom: 15px;
+}
+
+#josh{
+  color: palevioletred;
+  margin-left: 60px;
+}
+
+#buja{
+  color: blue;
+  margin-left: 60px;
+}
+
+#sibo{
+  color: white;
+  margin-left: 60px;
+}
 
