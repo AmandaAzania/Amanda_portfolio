@@ -45,3 +45,17 @@ main {
   color: rgb(255, 0, 0);
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
 }
+
+.rounded-image{
+  width: 33%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: 10px 10px;
+  border-radius: 50%;
+}
+.circle{
+  width: 15px;
+  aspect-ratio: 1 !important;
+  height: auto !important;
+  border-radius: 50% !important;
+}
