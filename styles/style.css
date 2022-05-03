@@ -40,3 +40,8 @@ main {
   min-height: 100vh;
 }
 
+#head{
+  text-shadow:3px 3px 2px rgb(177, 217, 246);
+  color: rgb(255, 0, 0);
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
+}
